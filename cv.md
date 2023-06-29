@@ -7,14 +7,15 @@
 
 ## About me
 
+#### Have a high working capacity, I am able to work in multitasking mode and in a team, I have developed organizational and managerial skills. Hobbies: reading books, music, sports. Married, have children.
 
-#### Have a high working capacity, I am able to work in multitasking mode and in a team, I have developed organizational and managerial skills. Hobbies: reading books, music, sports. Married, three children.
 
 ------------------------        --------------------------
+
 ## Contacts
 
-
 ### My email-adress   				gonchariktatana@gmail.com
-### My phone									+375447199250
+### My phone									+48452396629
+
 ------------------------        --------------------------
 
