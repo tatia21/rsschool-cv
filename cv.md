@@ -23,7 +23,7 @@
 
 ## Skills
 
-* html, css,javascript
+* html,css,javascript
 * figma
 * php
 * wordpress
