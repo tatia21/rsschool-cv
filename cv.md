@@ -29,3 +29,18 @@
 * wordpress
 
 ------------------------        --------------------------
+
+## Code
+
+```
+function removeChar(str) {
+
+							let arrayLetter = str.split('');
+
+							arrayLetter.pop();
+							arrayLetter.shift();
+
+							resultStr = arrayLetter.join('');
+							}
+```
+
