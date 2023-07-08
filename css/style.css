@@ -1,0 +1,225 @@
+@font-face {
+	font-family: 'RobotoRegular';
+	src: url('../fonts/roboto/Roboto-Regular.eot');
+	src: url('../fonts/roboto/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/roboto/Roboto-Regular.woff') format('woff'),
+		url('../fonts/roboto/Roboto-Regular.woff2') format('woff2'),
+		url('../fonts/roboto/Roboto-Regular.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'RobotoMedium';
+	src: url('../fonts/roboto/Roboto-Medium.eot');
+	src: url('../fonts/roboto/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/roboto/Roboto-Medium.woff') format('woff'),
+		url('../fonts/roboto/Roboto-Medium.woff2') format('woff2'),
+		url('../fonts/roboto/Roboto-Medium.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'RobotoBold';
+	src: url('../fonts/roboto/Roboto-Bold.eot');
+	src: url('../fonts/roboto/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/roboto/Roboto-Bold.woff') format('woff'),
+		url('../fonts/roboto/Roboto-Bold.woff2') format('woff2'),
+		url('../fonts/roboto/Roboto-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'RobotoItalic';
+	src: url('../fonts/roboto/Roboto-Italic.eot');
+	src: url('../fonts/roboto/Roboto-Italic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/roboto/Roboto-Italic.woff') format('woff'),
+		url('../fonts/roboto/Roboto-Italic.woff2') format('woff2'),
+		url('../fonts/roboto/Roboto-Italic.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'RobotoCondReg';
+	src: url('../fonts/robotoCondensed/RobotoCondensed-Regular.eot');
+	src: url('../fonts/robotoCondensed/RobotoCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/robotoCondensed/RobotoCondensed-Regular.woff') format('woff'),
+		url('../fonts/robotoCondensed/RobotoCondensed-Regular.woff2') format('woff2'),
+		url('../fonts/robotoCondensed/RobotoCondensed-Regular.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'BebasNeueReg';
+	src: url('../fonts/bebas-neue/BebasNeueRegular.eot');
+	src: url('../fonts/bebas-neue/BebasNeueRegular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/bebas-neue/BebasNeueRegular.woff') format('woff'),
+		url('../fonts/bebas-neue/BebasNeueRegular.woff2') format('woff2'),
+		url('../fonts/bebas-neue/BebasNeueRegular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_bolero_script';
+	src: url('../fonts/bolero_script/bolero_script.eot');
+	src: url('../fonts/bolero_script/bolero_script.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/bolero_script/bolero_script.woff') format('woff'),
+			url('../fonts/bolero_script/bolero_script.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+:root {
+  --color-green: #23d1a8;
+	--color-gray:#404a3c;
+	--color-brown:#4d2f04;
+	--color-light_blue:#19a3bb;
+	--color-blue:#0077ec;
+	--color-white:#fff;
+	--primary-gradient: linear-gradient(150deg, #235ad1, #23d1a8);
+}
+
+a:link {
+	text-decoration: none;
+	color: var(--color-green);
+}
+
+a:visited {
+	text-decoration: none;
+	color: var(--color-green);
+}
+
+a:hover {
+	color: var(--color-light_blue);
+	scale: 1.2;
+	filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
+	transition: all 0.5s ease 0s;
+	}
+
+
+h1{
+	font-family: 'RobotoBold', sans-serif;
+	font-size: 2.6rem;
+	color: var(--color-brown);
+}
+
+h2{
+	font-family: 'RobotoMedium', sans-serif;
+	font-size: 1.6rem;
+}
+
+span {
+	font-family: 'Conv_bolero_script', sans-serif;
+	font-style: italic;
+	color: var(--color-blue);
+}
+
+body {
+	scroll-behavior: smooth;
+	font-family: 'RobotoMedium', sans-serif;
+	font-size: 1rem;
+	line-height: 1.2;
+	color: var(--color-gray);
+}
+
+/* ----------оболочка сайта----------------*/
+.wrapper {
+	min-height: 100%;
+	max-width: 1920px;
+	overflow: hidden;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0px 15px 0px 15px;
+	box-sizing: content-box;
+}
+
+/* ---------header-----------------*/
+
+.header__body {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 50px;
+	margin-bottom: 20px;
+	padding: 20px 0px;
+	gap: 10px;
+}
+
+.header__menu li {
+display: inline-block;
+padding: 0px 10px;
+}
+
+.iconsots a {
+	display: inline-block;
+	padding: 0px 10px;
+}
+
+.iconsots .fa-brands {
+font-size: 2em;
+}
+
+i {
+	color: var(--color-blue);
+	padding-right: 10px;
+}
+
+.header__menu li a {
+	position: relative;
+}
+
+.header__menu li a::after{
+	content: "";
+	display: block;
+	position: absolute;
+	right: 0;
+	bottom: -3px;
+	width: 0;
+	height: 1px;
+	background-color: var(--color-blue);   /* Цвет подчеркивания при исчезании линии*/
+	transition: all 0.3s ease 0s;
+}
+
+.header__menu li a:hover::after{
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 1px; /* Высота линии */
+    background-color: var(--color-light_blue); /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.3s;  /* Время эффекта */
+}
+
+/* ---------footer-----------------*/
+.footer{
+	min-height: 60px;
+	background:var(--primary-gradient);
+	padding: 10px 0px;
+}
+
+.footer__body{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer__link img {
+width: 70px;
+height: 70px;
+}
