@@ -190,7 +190,7 @@ font-size: 2em;
 }
 
 i {
-	color: var(--color-blue);
+	color: var(--color-green);
 	padding-right: 10px;
 }
 /* ---------header-menu-----------------*/
@@ -223,7 +223,8 @@ i {
 }
 /* ---------main-page-----------------*/
 /* ---------about-me-----------------*/
-.about__body {
+.about__body,
+.education__body {
 padding: 20px 0px;
 display: flex;
 flex-direction: row;
@@ -246,6 +247,15 @@ justify-content: space-between;
 .block__right {
 	flex: 0 1 50%;
 }
+/* ---------education-----------------*/
+.contacts{
+	list-style: none;
+	padding: 0;
+}
+.contacts> li:not(:last-child) {
+margin-bottom: 20px;
+}
+
 
 /* ---------footer-----------------*/
 .footer{
