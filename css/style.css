@@ -82,6 +82,11 @@
 	--color-blue:#0077ec;
 	--color-white:#fff;
 	--primary-gradient: linear-gradient(150deg, #235ad1, #23d1a8);
+	scroll-behavior: smooth;
+	font-family: 'RobotoCondReg', sans-serif;
+	font-size: 1rem;
+	line-height: 1.2;
+	color: var(--color-gray);
 }
 
 a:link {
@@ -136,14 +141,6 @@ hr{
 	background-color:var(--color-gray);
 	border-radius: 4px;
 	box-shadow: inset 8px 8px 24px 0px rgba(66, 68, 90, 1);
-}
-
-body {
-	scroll-behavior: smooth;
-	font-family: 'RobotoCondReg', sans-serif;
-	font-size: 1rem;
-	line-height: 1.2;
-	color: var(--color-gray);
 }
 
 /* ----------wrapper----------------*/
@@ -255,7 +252,33 @@ justify-content: space-between;
 .contacts> li:not(:last-child) {
 margin-bottom: 20px;
 }
+/* ---------skills-----------------*/
+.skillsandcode__body {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	gap:5px;
+}
 
+.skillsandcode__code {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+pre {
+	overflow: auto;
+	font-family: "RobotoBold", monospace;
+	margin: 0;
+}
+
+.skillsandcode__skills>li{
+list-style: none;
+}
+
+.skillsandcode__skills ul> li:not(:last-child) {
+margin-bottom: 20px;
+}
 
 /* ---------footer-----------------*/
 .footer{
